@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, rgb(255, 154, 158), #fad0c4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Georgia", serif,;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    background: rgb(255, 154, 158);
+    padding: 30px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.2);
+
+    width: 90%;
+    max-width: 400px;
+}
+
+
+h1 {
+    font-size: 24px;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.top-image {
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 35px;
+}
+
+video {
+    width: 90%;
+    max-width: 500px;
+}
